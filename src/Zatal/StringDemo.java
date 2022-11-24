@@ -9,6 +9,7 @@ public class StringDemo {
 
         Jamil.put(1, "Jamil");
         Jamil.put(2, "Malik");
+        Jamil.put(3, "Zarmina");
 
         System.out.println(Jamil.get(1));
         int andaza=Jamil.size();
