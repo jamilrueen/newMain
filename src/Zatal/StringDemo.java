@@ -1,20 +1,17 @@
 package Zatal;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 public class StringDemo {
     public static void main(String[] args) {
-        Map Jamil=new HashMap<>();
+        Set haziri=new HashSet<String>();
 
-        Jamil.put(1, "Jamil");
-        Jamil.put(2, "Malik");
-        Jamil.put(3, "Zarmina");
+        haziri.add("Jamshid");
+        haziri.add(1);
 
-        System.out.println(Jamil.get(1));
-        int andaza=Jamil.size();
+        System.out.println(haziri);
 
-        System.out.println("There are "+andaza+" elements in this map.");
 
     }
 }
